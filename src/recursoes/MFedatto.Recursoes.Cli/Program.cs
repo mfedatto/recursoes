@@ -5,7 +5,7 @@ using MFedatto.Recursoes.Cli;
 
 Environment.SetEnvironmentVariable(
     "mfedatto.recursoes.benchmark.targetpath",
-    @"M:\repos\github\aspnet\NerdDinner");
+    @"M:\repos\github\microsoft\dotnet");
 
 Summary summary = BenchmarkRunner.Run<BenchmarkMethods>(
     ManualConfig
